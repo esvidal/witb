@@ -6,12 +6,33 @@
 </head>
 <body>
     <main>
-        <h1>What's in the Bag</h1>
-        <h2>Golf Bag Photos</h2>
-        <!--TODO: Add a link for golf bag photos-->
-        <p>See more <a href="#">bag photos</a> in our gallery.</p>
-        <a href="">link to the bag pictures</a>
-        <img src="" alt="Current golf bag setup for 2023-24">
+        <section>
+            <h1>What's in the Bag</h1>
+            <h2>Golf Bag Photos</h2>
+            <!--TODO: Add a link for golf bag photos-->
+            <p>See more <a href="#" target="_blank">bag photos</a> in our gallery.</p>
+            <a onclick="photoApp()" href="#"><img src="images/2023-golfbag.png"
+                    alt="Current golf bag setup for 2023-24"></a>
+        </section>
+        <section>
+            <h2>Club List</h2>
+            <h3>My current bag for 2023:</h3>
+            <!--TODO: Make this unordered list into clickable images to potentially 
+                sell or trade options for users.-->
+            <ul>
+                <li>Cobra Driver</li>
+                <li>Nike VRS 3 Wood</li>
+                <li>Nike VRS 5 Wood</li>
+                <li>Taylormade P790 2021 irons PW-3i</li>
+                <li>Mizuno S5 56&deg; & 60&deg; wedges</li>
+                <li>Odyssey putter</li>
+            </ul>
+        </section>
     </main>
+    <script>
+        function photoApp() {
+            alert("Normally this link would bring you to another website! It works. This is a link to: https://freegolfphotoapp.com/");
+        }
+    </script>
 </body>
 </htmt>

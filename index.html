@@ -27,11 +27,39 @@
                 <li>Mizuno S5 56&deg; & 60&deg; wedges</li>
                 <li>Odyssey putter</li>
             </ul>
-            <figure>
+            <figure><!-- TODO: Add a photo of your putter here -->
                 <img src="">
                 <figcaption>What secrets would your putter spill if it could talk? 
                     <i>Just aim for the finish, I'll keep up!</i></figcaption>
             </figure>
+            <h3>Another header??</h3>
+            <ol>
+                <li>blah</li>
+                <li>blah</li>
+                <li>blah</li>
+            </ol>
+            <figure>
+                <img src="" alt="Improve accessibility here">
+            </figure>
+        </section>
+        <section>
+            <h2>GolfBag Form</h2>
+            <!-- What if people/viewers had a place where they can submit their own golf bags? -->
+            <form action="https://somewhere.com/submit-golf-bag-photo">
+                <fieldset>
+                    <legend>Walk the green, ride the scene, or a bit of both?</legend>
+                    <label><input id="walker" type="radio" name="walk-ride" value="walk"> Walk</label>
+                    <label><input id="rider" type="radio" name="walk-ride" value="ride"> Ride</label>
+                    <label><input id="both" type="radio" name="walk-ride" value="both"> Both</label>
+                </fieldset>
+                <fieldset>
+                    <!-- TODO: Ideas for checkbox type of inputs? -->
+                    <legend>What's your golf game like?</legend>
+                    <input type="checkbox"> 
+                </fieldset>
+                <input type="text" name="catphotourl" placeholder="golf bag photo URL" required>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
     <script>

@@ -55,13 +55,18 @@
                 <fieldset>
                     <!-- TODO: Ideas for checkbox type of inputs? -->
                     <legend>What's your golf game like?</legend>
-                    <input type="checkbox"> 
+                    <input id="fast" name="player-type" value="fast" type="checkbox" checked> <label for="fast">Fast</label>
+                    <input id="slow" name="player-type" value="slow" type="checkbox"> <label for="slow">Slow</label>
+                    <input id="flow" name="player-type" value="flow" type="checkbox"> <label for="flow">Flow</label>
                 </fieldset>
                 <input type="text" name="catphotourl" placeholder="golf bag photo URL" required>
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
+    <footer>
+        <p>No Copyright - <a href="#">witb.app</a></p>
+    </footer>
     <script>
         // My first function!!!!
         function photoApp() {
